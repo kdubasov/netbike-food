@@ -1,0 +1,22 @@
+.OurProducts.container{
+    padding: 6em 0 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray-4a);
+}
+
+.OurProducts.container .content{
+    width: 50%;
+}
+.OurProducts.container .content h6{
+    font-weight: 400;
+}
+.OurProducts.container .content hr{
+    width: 50%;
+    opacity: 1;
+    margin: 2em 0;
+}
+.OurProducts.container .content .images img{
+    margin-right: 3em;
+}

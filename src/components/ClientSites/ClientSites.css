@@ -1,0 +1,48 @@
+.ClientSites.container{
+    flex-wrap: wrap;
+    padding: 3em 0;
+    color: var(--white);
+}
+.ClientSites.container h3{
+    color: var(--gray-4a);
+    margin-bottom: .5em;
+}
+.ClientSites .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ClientSites .content .sait-block{
+    width: calc(33% - .5em);
+    padding: 2em 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ClientSites .content .sait-block img,
+.ClientSites .content .sait-block .content-inner{
+    width: 90%;
+}
+.ClientSites .content .sait-block h4{
+    font-weight: 600;
+}
+.ClientSites .content .sait-block p.podzag,
+.ClientSites .content .sait-block span{
+    margin-bottom: 1.5em;
+    font-weight: 300;
+}
+
+.ClientSites .content .sait-block a{
+    text-align: center;
+    width: 90%;
+    margin-top: 1.5em;
+    padding: .8em 0;
+    border: 1px solid var(--white);
+    border-radius: .5em;
+    transition: .3s;
+}
+.ClientSites .content .sait-block a:hover{
+    color: var(--black);
+    background: var(--white);
+}

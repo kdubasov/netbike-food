@@ -1,0 +1,28 @@
+.Advantages.container{
+    padding: 3em 0 4em;
+    flex-wrap: wrap;
+    color: var(--gray-4a);
+}
+.Advantages.container h3{
+    margin-bottom: .5em;
+}
+
+.Advantages .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Advantages .content .advent-block{
+    width: 30%;
+    margin: 1.5em 0;
+}
+.Advantages .content .advent-block h5{
+    font-weight: 400;
+}
+.Advantages .content .advent-block .line{
+    width: 50%;
+    height: 3px;
+    margin-bottom: 1em;
+}

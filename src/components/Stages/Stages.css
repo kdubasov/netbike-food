@@ -1,0 +1,35 @@
+.Stages{
+    padding: 1.5em 0 4em;
+    color: var(--gray-4a);
+    flex-wrap: wrap;
+}
+.Stages h3{
+    margin-bottom: .8em;
+}
+.Stages .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stages-block{
+    width: 32%;
+    padding: 3em 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat;
+    background-position: bottom right 1em;
+}
+
+.stages-block h4{
+    margin-bottom: .5em;
+}
+.stages-block ul{
+    padding: 0 0 0 1em;
+}
+.stages-block ul li{
+    margin-bottom: .8em;
+    list-style-type: square;
+}
+.stages-block ul li::marker{
+    color: var(--green-66);
+}

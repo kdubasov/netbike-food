@@ -1,0 +1,13 @@
+.Footer{
+    background: #4A4A4A;
+    padding: 1.5em 0;
+}
+.Footer .container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Footer .container a:hover{
+    transition: .3s;
+    opacity: .5;
+}
