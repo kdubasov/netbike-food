@@ -9,6 +9,8 @@
     --white:#FFF;
     --black:#000;
     --gray-4a:#4A4A4A;
+    --gray-4a-op5: rgba(74, 74, 74, 0.5);
+    --gray-4a-op25: rgba(74, 74, 74, 0.25);
     --green-66:#669966;
     --grad-slider-l: linear-gradient(90deg, #8FD3F4 0%, #84FAB0 100%);
     --grad-slider-r:linear-gradient(90deg, #84FAB0 0%, #8FD3F4 100%);

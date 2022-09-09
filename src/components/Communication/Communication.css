@@ -1,0 +1,33 @@
+.Communication.container{
+    padding: 5em 0;
+    color: var(--gray-4a);
+    display: flex;
+    flex-wrap: wrap;
+}
+.Communication.container h2{
+    margin-bottom: .5em;
+}
+.Communication.container h5{
+    font-weight: 400;
+    margin-bottom: 1.5em;
+}
+
+/*content blocks*/
+.Communication.container .content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*block*/
+.Communication.container .content .block{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}
+.Communication.container .content .block img{
+    margin-right: 1em;
+}

@@ -1,0 +1,32 @@
+.AfterForm.container{
+    border-radius: 1em;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5em;
+    padding: 3em 5em;
+    color: var(--gray-4a);
+}
+
+.AfterForm.container .content{
+    margin-right: 5%;
+}
+.AfterForm.container .content h4,
+.AfterForm.container .content h6{
+    font-weight: 400;
+}
+.AfterForm.container .content span h4{
+    margin-bottom: .5em;
+}
+.AfterForm.container .content span h6{
+    padding-bottom: 3em;
+}
+
+.AfterForm.container .content h4 a{
+    color: var(--green-66);
+    transition: .3s;
+}
+.AfterForm.container .content h4 a:hover{
+    color: var(--gray-4a);
+}
