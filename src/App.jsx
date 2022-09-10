@@ -10,6 +10,7 @@ import Slider from "./components/Slider/Slider";
 import Footer from "./general-components/Footer/Footer";
 import Communication from "./components/Communication/Communication";
 import Form from "./components/Form/Form";
+import Calculator from "./components/Calculator/Calculator";
 
 const App = () => {
     return (
@@ -20,6 +21,7 @@ const App = () => {
             <Stages />
             <ClientSites />
             <Slider />
+            <Calculator />
             <Communication />
             <Form />
 
