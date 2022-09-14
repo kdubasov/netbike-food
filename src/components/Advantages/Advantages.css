@@ -26,3 +26,12 @@
     height: 3px;
     margin-bottom: 1em;
 }
+
+
+/*MEDIA*/
+@media screen and (max-width: 600px){
+    .Advantages .content .advent-block{
+        width: 45%;
+        margin: 1em 0;
+    }
+}

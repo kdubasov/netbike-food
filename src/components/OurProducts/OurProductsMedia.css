@@ -1,0 +1,57 @@
+@media screen and (max-width: 1250px){
+    .OurProducts.container img.truck{
+        width: 40%;
+    }
+    .OurProducts.container .content{
+        width: 57%;
+        margin-left: 3%;
+    }
+    .OurProducts.container .content .images img{
+        margin-right: 2em;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .OurProducts.container{
+        justify-content: center;
+    }
+    .OurProducts.container .content{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .OurProducts.container{
+        padding: 4em 0 3em;
+        justify-content: flex-start;
+    }
+    .OurProducts.container img.truck{
+        width: 40%;
+    }
+    .OurProducts.container .content{
+        margin-left: 5%;
+    }
+    .OurProducts.container .content .images img{
+        width: 3em;
+        max-height: 3em;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .OurProducts.container img.truck{
+        display: none;
+    }
+    .OurProducts.container .content{
+        margin-left: 0;
+        width: 100%;
+    }
+    .OurProducts.container .content hr{
+        margin: 1.5em 0;
+    }
+    .OurProducts.container .content .images img{
+        width: 18%;
+        max-height: 4em;
+        margin-right: 1em;
+    }
+}

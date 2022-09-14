@@ -1,5 +1,6 @@
 import React from 'react';
 import './Stages.css';
+import './StagesMedia.css';
 
 const Stages = () => {
 

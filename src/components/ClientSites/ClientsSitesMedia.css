@@ -1,0 +1,26 @@
+@media screen and (max-width: 800px){
+    .ClientSites .content{
+        flex-wrap: wrap;
+    }
+
+    .ClientSites .content .sait-block{
+        width: calc(50% - .5em);
+        margin: .5em 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .ClientSites .content .sait-block{
+        width: calc(100% - .5em);
+        margin: .5em 0;
+    }
+    .ClientSites .content .sait-block img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .ClientSites .content .sait-block img{
+        width: 80%;
+    }
+}

@@ -11,3 +11,10 @@
     transition: .3s;
     opacity: .5;
 }
+
+/*media*/
+@media screen and (max-width: 600px){
+    .Footer .container img{
+        width: 100px;
+    }
+}

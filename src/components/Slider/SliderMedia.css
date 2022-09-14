@@ -1,0 +1,17 @@
+@media screen and (max-width: 900px){
+    .Slider .swiper-slide{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 600px){
+    .Slider{
+        margin: 1em 0 2em;
+    }
+    .Slider .swiper-slide{
+        height: 300px;
+    }
+    .Slider .swiper-button-next,
+    .Slider .swiper-button-prev{
+        bottom: 20%;
+    }
+}

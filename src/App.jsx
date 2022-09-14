@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './AppMedia.css';
 import 'animate.css';
 import Preview from "./components/Preview/Preview";
 import OurProducts from "./components/OurProducts/OurProducts";
@@ -10,7 +11,7 @@ import Slider from "./components/Slider/Slider";
 import Footer from "./general-components/Footer/Footer";
 import Communication from "./components/Communication/Communication";
 import Form from "./components/Form/Form";
-import Calculator from "./components/Calculator/Calculator";
+// import Calculator from "./components/Calculator/Calculator";
 
 const App = () => {
     return (
@@ -21,7 +22,7 @@ const App = () => {
             <Stages />
             <ClientSites />
             <Slider />
-            <Calculator />
+            {/*<Calculator />*/}
             <Communication />
             <Form />
 

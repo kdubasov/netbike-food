@@ -3,6 +3,7 @@ import './Form.css';
 import emailjs from '@emailjs/browser';
 import Error from "../../general-components/Error/Error";
 import AfterForm from "../AfterForm/AfterForm";
+import './FormMedia.css';
 
 const Form = () => {
 

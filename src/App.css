@@ -21,6 +21,7 @@
     margin: auto;
     padding: 0;
     display: flex;
+    /*background: red;*/
 }
 
 p,a,button,h1,h2,h3,h4,h5,h6{
@@ -29,9 +30,9 @@ p,a,button,h1,h2,h3,h4,h5,h6{
     text-decoration: none;
     color: inherit;
 }
-h1{font-size: 4.5vmax;}
-h2{font-size: 3.5vmax;}
-h3{font-size: 3vmax;}
-h5{font-size: 1.5vmax;}
-h6{font-size: 1.2vmax;}
+h1{font-size: 4em;}
+h2{font-size: 3.4em;}
+h3{font-size: 3em;}
+h5{font-size: 1.4em;}
+h6{font-size: 1.2em;}
 p,a,p,li,button{font-size: 1em;}

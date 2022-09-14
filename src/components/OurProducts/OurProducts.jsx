@@ -1,5 +1,6 @@
 import React from 'react';
 import './OurProducts.css';
+import './OurProductsMedia.css';
 
 const OurProducts = () => {
     return (

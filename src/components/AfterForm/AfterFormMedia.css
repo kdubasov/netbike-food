@@ -1,0 +1,14 @@
+@media screen and (max-width: 800px){
+    .AfterForm.container{
+        padding: 3em 3em;
+    }
+    .AfterForm.container img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .AfterForm.container{
+        padding: 3em .5em;
+    }
+}

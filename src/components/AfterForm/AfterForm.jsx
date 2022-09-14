@@ -1,5 +1,6 @@
 import React from 'react';
 import './AfterForm.css';
+import './AfterFormMedia.css';
 
 const AfterForm = () => {
     return (

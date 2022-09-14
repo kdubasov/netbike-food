@@ -1,0 +1,15 @@
+@media screen and (max-width: 1300px){
+    .Stages .content{
+        flex-wrap: wrap;
+    }
+    .stages-block{
+        width: 49%;
+        margin: .5em 0;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .stages-block{
+        width: 99%;
+    }
+}

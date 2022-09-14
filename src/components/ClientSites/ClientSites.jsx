@@ -1,5 +1,6 @@
 import React from 'react';
 import './ClientSites.css';
+import './ClientsSitesMedia.css';
 
 const ClientSites = () => {
 

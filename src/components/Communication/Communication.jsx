@@ -1,5 +1,6 @@
 import React from 'react';
 import './Communication.css';
+import './CommunicationMedia.css';
 
 const Communication = () => {
 

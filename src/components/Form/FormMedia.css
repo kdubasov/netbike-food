@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px){
+    .Form.container{
+        padding: 3em 2em 1em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .Form.container{
+        padding: 2em 1em 1em;
+    }
+}

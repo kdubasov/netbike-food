@@ -4,6 +4,7 @@ import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import './Slider.css';
+import './SliderMedia.css';
 
 const Slider = () => {
 

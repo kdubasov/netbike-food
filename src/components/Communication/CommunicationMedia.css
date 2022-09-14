@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px){
+    .Communication.container .content .block{
+        width: 95%;
+        margin-top: 1em;
+    }
+    .Communication.container .content .block img{
+        width: 3em;
+    }
+}
