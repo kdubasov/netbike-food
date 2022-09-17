@@ -1,0 +1,54 @@
+.Questionnaire{
+    width: 100%;
+}
+
+.Questionnaire button.open-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border:none !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.Questionnaire button.open-close img{
+    transition: .3s;
+    margin-left: .6em;
+}
+.Questionnaire button.open-close:hover{
+    color: var(--gray-4a-op5) !important;
+    background: none !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.Questionnaire button.open-close:hover img{
+    opacity: .5;
+}
+
+/*anketa*/
+div.anketa{
+    transition: .3s;
+    width: 100%;
+}
+
+div.anketa .block p.small{
+    font-weight: 300;
+    color: var(--gray-4a);
+    opacity: .8;
+}
+
+/*textarea*/
+div.anketa .block textarea{
+    font-weight: 300;
+    color: var(--gray-4a);
+    width: 100%;
+    resize: none;
+    margin-top: .5em;
+    border-radius: .5em;
+    font-size: 1em;
+    border: 1px solid var(--gray-4a-op5);
+    outline: none;
+    padding: .5em 1em;
+    transition: .3s;
+}
+div.anketa .block textarea:hover{
+    border: 1px solid var(--green-66);
+}

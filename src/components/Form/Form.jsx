@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import Error from "../../general-components/Error/Error";
 import AfterForm from "../AfterForm/AfterForm";
 import './FormMedia.css';
+import Questionnaire from "./Questionnaire/Questionnaire";
 
 const Form = () => {
 
@@ -14,6 +15,8 @@ const Form = () => {
     const [name,setName] = useState('')
     const [tel,setTel] = useState('')
     const [email,setEmail] = useState('')
+
+    const [dataAnk,setDataAnk] = useState(['','','','','',''])
 
     //state for banner after form submit
     const [show,setShow] = useState(false)
@@ -84,6 +87,16 @@ const Form = () => {
                                     required={true}
                                 />
                             </div>
+
+                            <p className={'mt-3 mb-3'}>
+                                Вы можете заполнить анкету и ответить на часть вопросов
+                                – это поможет подготовить индивидуальную презентацию для встречи
+                            </p>
+
+                            <Questionnaire
+                                dataAnk={dataAnk}
+                                setDataAnk={setDataAnk}
+                            />
 
                             <button type={"submit"} disabled={disable}>Отравить</button>
 

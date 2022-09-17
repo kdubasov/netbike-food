@@ -18,3 +18,23 @@
     font-weight: 400;
     color: var(--gray-4a);
 }
+
+/*MEDIA*/
+@media screen and (max-width: 600px){
+    .Services.container .block img{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 500px){
+    .Services.container{
+        padding: 1em 0 0;
+    }
+    .Services.container .block{
+        margin: .5em 0;
+        width: 75%;
+        align-items: center;
+    }
+    .Services.container .block img{
+        width: 25%;
+    }
+}
