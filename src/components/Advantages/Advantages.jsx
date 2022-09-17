@@ -1,5 +1,6 @@
 import React from 'react';
 import './Advantages.css';
+import {Fade, Slide} from "react-awesome-reveal";
 
 const Advantages = () => {
 
@@ -43,11 +44,15 @@ const Advantages = () => {
                 {
                     data.map(elem =>(
                         <div className={`advent-block`} key={elem.id}>
+                            <Fade>
                             <div
                                 style={{background:elem.gradient}}
                                 className="line"
                             />
-                            <h5>{elem.text}</h5>
+                                <Slide direction={'up'} delay={300}>
+                                    <h5>{elem.text}</h5>
+                                </Slide>
+                            </Fade>
                         </div>
                     ))
                 }

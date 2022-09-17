@@ -1,0 +1,20 @@
+.Services.container{
+    padding: 3em 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Services.container .block{
+    width: 48%;
+    margin: 1.5em 0;
+    display: flex;
+    align-items: center;
+}
+.Services.container .block img{
+    width: 30%;
+    margin-right: 1.5em;
+}
+.Services.container .block h6{
+    font-weight: 400;
+    color: var(--gray-4a);
+}

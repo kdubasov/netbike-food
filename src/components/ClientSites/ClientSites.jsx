@@ -1,6 +1,7 @@
 import React from 'react';
 import './ClientSites.css';
 import './ClientsSitesMedia.css';
+import {Fade} from "react-awesome-reveal";
 
 const ClientSites = () => {
 
@@ -37,6 +38,7 @@ const ClientSites = () => {
     return (
         <div className={`ClientSites container`}>
             <h3>Сайты наших клиентов</h3>
+            <Fade direction={300}>
             <div className="content">
                 {
                     data.map(elem =>(
@@ -60,6 +62,7 @@ const ClientSites = () => {
                     ))
                 }
             </div>
+            </Fade>
         </div>
     );
 };

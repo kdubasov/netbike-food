@@ -1,6 +1,7 @@
 import React from 'react';
 import './Stages.css';
 import './StagesMedia.css';
+import {Fade, Slide} from "react-awesome-reveal";
 
 const Stages = () => {
 
@@ -51,14 +52,18 @@ const Stages = () => {
                             className={`stages-block`}
                             style={{backgroundImage:`url(${elem.img})`}}
                         >
-                            <h4>{elem.zagolovok}</h4>
-                            <ul>
-                                {
-                                    elem.ul.map(elem =>(
-                                        <li key={elem}>{elem}</li>
-                                    ))
-                                }
-                            </ul>
+                            <Fade>
+                                <h4>{elem.zagolovok}</h4>
+                                <ul>
+                                    {
+                                        elem.ul.map((elem,id) =>(
+                                            <Slide direction={'up'} key={elem} delay={id * 150}>
+                                                <li>{elem}</li>
+                                            </Slide>
+                                        ))
+                                    }
+                                </ul>
+                            </Fade>
                         </div>
                     ))
                 }

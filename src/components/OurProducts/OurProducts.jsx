@@ -1,12 +1,18 @@
 import React from 'react';
 import './OurProducts.css';
 import './OurProductsMedia.css';
+import {Fade} from "react-awesome-reveal";
+
 
 const OurProducts = () => {
     return (
         <div className={`OurProducts container`}>
-            <img src="/images/OurProducts/truck.svg" alt="" className="truck"/>
+            <Fade direction={'right'}>
+                <img src="/images/OurProducts/truck.svg" alt="" className="truck"/>
+            </Fade>
+
             <div className="content">
+                <Fade delay={400}>
                 <h2>Любая продукция</h2>
                 <h6>для доставки в локации города</h6>
                 <hr/>
@@ -16,6 +22,7 @@ const OurProducts = () => {
                     <img src="/images/OurProducts/flower.svg" alt="Цветы"/>
                     <img src="/images/OurProducts/glass.svg" alt="Стакан"/>
                 </div>
+                </Fade>
             </div>
         </div>
     );

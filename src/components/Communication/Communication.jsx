@@ -1,6 +1,7 @@
 import React from 'react';
 import './Communication.css';
 import './CommunicationMedia.css';
+import {Slide} from "react-awesome-reveal";
 
 const Communication = () => {
 
@@ -28,19 +29,23 @@ const Communication = () => {
     ]
 
     return (
-        <div className={`Communication container`}>
-            <h2>Коммуникация</h2>
+        <div style={{overflow:"hidden"}} className={`Communication container`}>
+            <a name={'form'}></a>
+            <h2>Стоимость</h2>
             <h5>
-                Составить бизнес-требования проекта и познакомиться с возможностями
-                нашей веб-платформы мы предлагаем в формате презентации на встрече.
+                Составить бизнес-требования проекта и познакомиться с возможностями нашей веб-платформы,
+                мы предлагаем в формате презентации. По результатам встречи,
+                мы сформируем для вас комплектацию и ценовое предложение
             </h5>
 
             <div className="content">
                 {
-                    data.map(elem =>(
+                    data.map((elem,ids) =>(
                         <div key={elem.id} className={'block'}>
-                            <img src={elem.img} alt={elem.text}/>
-                            <h6>{elem.text}</h6>
+                            <Slide direction={'up'} delay={ids * 150}>
+                                <img src={elem.img} alt={elem.text}/>
+                                <h6>{elem.text}</h6>
+                            </Slide>
                         </div>
                     ))
                 }

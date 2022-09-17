@@ -1,6 +1,28 @@
-@media screen and (max-width: 900px){
+
+@media screen and (max-width: 1000px){
     .Slider .swiper-slide{
         height: 400px;
+    }
+    .Slider .swiper-button-next,
+    .Slider .swiper-button-prev{
+        width: 2.2em;
+        height: 2.2em;
+    }
+    .Slider .swiper-button-prev:hover,
+    .Slider .swiper-button-next:hover{
+        width: 2.8em;
+    }
+    .Slider .swiper-button-prev{
+        left: 2.5%;
+    }
+    .Slider .swiper-button-next{
+        left: calc(2.5% + 3em);
+    }
+    .Slider .swiper-button-prev:hover{
+        left: calc(2.5% - .3em);
+    }
+    .Slider .swiper-slide h3{
+        left: 2.5%;
     }
 }
 @media screen and (max-width: 600px){
@@ -12,6 +34,6 @@
     }
     .Slider .swiper-button-next,
     .Slider .swiper-button-prev{
-        bottom: 20%;
+        bottom: 25%;
     }
 }

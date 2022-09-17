@@ -11,10 +11,10 @@
 }
 /*buttons*/
 .Slider .swiper-button-prev{
-    left: 10%;
+    left: 12.5%;
 }
 .Slider .swiper-button-next{
-    left: calc(10% + 4em);
+    left: calc(12.5% + 4em);
 }
 .Slider .swiper-button-next,
 .Slider .swiper-button-prev{
@@ -50,7 +50,7 @@
 .Slider .swiper-slide h3{
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 12.5%;
     max-width: 50%;
     color: var(--gray-4a);
     font-weight: 400;
