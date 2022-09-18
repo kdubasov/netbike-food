@@ -1,6 +1,6 @@
 .Form.container{
     margin: 0 auto 5em;
-    padding: 5em 7.5em 2em;
+    padding: 5em 5em 2em;
     flex-wrap: wrap;
     border-radius: 1em;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -90,8 +90,10 @@
     font-weight: 300;
 }
 .Form.container .block.check input{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
     accent-color: var(--green-66);
     margin-right: .5em;
     margin-bottom: 10px;

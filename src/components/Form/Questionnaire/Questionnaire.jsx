@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import './Questionnaire.css';
+import Checkboxes from "./components/Checkboxes";
 
-const Questionnaire = ({dataAnk,setDataAnk}) => {
+const Questionnaire = ({dataAnk,setDataAnk,dataCheck,setDataCheck}) => {
 
     const [ankShow,setAnkShow] = useState(false)
 
@@ -93,6 +94,11 @@ const Questionnaire = ({dataAnk,setDataAnk}) => {
                         onChange={event => handleChangeInp(event.target.value,5)}
                     />
                 </div>
+
+                <Checkboxes
+                    dataCheck={dataCheck}
+                    setDataCheck={setDataCheck}
+                />
             </div>
 
         </div>

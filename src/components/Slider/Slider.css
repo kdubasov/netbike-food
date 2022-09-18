@@ -10,12 +10,6 @@
     background-position: center center;
 }
 /*buttons*/
-.Slider .swiper-button-prev{
-    left: 12.5%;
-}
-.Slider .swiper-button-next{
-    left: calc(12.5% + 4em);
-}
 .Slider .swiper-button-next,
 .Slider .swiper-button-prev{
     border-radius: .3em;
@@ -28,6 +22,12 @@
     color: #4A4A4A;
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
     transition: .3s;
+}
+.Slider .swiper-button-prev{
+    left: 12.5%;
+}
+.Slider .swiper-button-next{
+    left: calc(12.5% + 4em);
 }
 .Slider .swiper-button-next:after,
 .Slider .swiper-button-prev:after{
@@ -43,7 +43,7 @@
     background: var(--grad-slider-r);
 }
 .Slider .swiper-button-prev:hover{
-    left: calc(10% - 1em);
+    left: calc(12.5% - 1em);
     background: var(--grad-slider-l);
 }
 

@@ -1,0 +1,55 @@
+.container-checks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: inherit;
+}
+
+.container-checks h6.zag-main{
+    width: 100%;
+}
+
+.container-checks .block-checks{
+    width: 32%;
+}
+.container-checks .block-checks h6{
+    margin-bottom: .6em;
+}
+
+.container-checks .block-check{
+    width: 100%;
+    margin: .5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container-checks .block-check input{
+    width: 18px !important;
+    height: 18px !important;
+    min-width: 18px;
+    min-height: 18px;
+    accent-color: var(--green-66);
+    margin: 0 .5em 0 0 !important;
+    padding: 0 !important;
+}
+.container-checks .block-check p{
+    margin: 0;
+    padding: 0;
+}
+
+/*MEDIA*/
+@media screen and (max-width: 700px){
+    .container-checks .block-checks{
+        width: 49%;
+    }
+    .container-checks .block-checks:last-child{
+        margin-top: .5em;
+    }
+}
+@media screen and (max-width: 700px){
+    .container-checks .block-checks{
+        width: 99%;
+        margin-top: .5em;
+    }
+}

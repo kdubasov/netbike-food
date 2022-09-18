@@ -18,6 +18,10 @@ const Form = () => {
 
     const [dataAnk,setDataAnk] = useState(['','','','','',''])
 
+    const [dataCheck,setDataCheck] = useState([
+        false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+    ])
+
     //state for banner after form submit
     const [show,setShow] = useState(false)
 
@@ -96,6 +100,8 @@ const Form = () => {
                             <Questionnaire
                                 dataAnk={dataAnk}
                                 setDataAnk={setDataAnk}
+                                dataCheck={dataCheck}
+                                setDataCheck={setDataCheck}
                             />
 
                             <button type={"submit"} disabled={disable}>Отравить</button>
