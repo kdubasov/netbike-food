@@ -7,7 +7,7 @@ import {Fade} from "react-awesome-reveal";
 const OurProducts = () => {
     return (
         <div className={`OurProducts container`}>
-            <Fade direction={'right'}>
+            <Fade className={'img-OurProducts-big'} direction={'right'}>
                 <img src="/images/OurProducts/truck.svg" alt="" className="truck"/>
             </Fade>
 

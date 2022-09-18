@@ -1,9 +1,12 @@
 @media screen and (max-width: 1250px){
-    .OurProducts.container img.truck{
-        width: 40%;
+    .OurProducts.container .img-OurProducts-big{
+        width: 35%;
+    }
+    .OurProducts.container .img-OurProducts-big img{
+        width: 100%;
     }
     .OurProducts.container .content{
-        width: 57%;
+        width: 60%;
         margin-left: 3%;
     }
     .OurProducts.container .content .images img{
@@ -25,21 +28,25 @@
         padding: 4em 0 3em;
         justify-content: flex-start;
     }
-    .OurProducts.container img.truck{
+    .OurProducts.container .img-OurProducts-big{
         width: 40%;
+    }
+    .OurProducts.container .img-OurProducts-big img{
+        width: 100%;
     }
     .OurProducts.container .content{
         margin-left: 5%;
     }
     .OurProducts.container .content .images img{
-        width: 3em;
-        max-height: 3em;
+        width: 2.5em;
+        max-height: 2.5em;
         margin-right: 1em;
     }
 }
 
-@media screen and (max-width: 600px){
-    .OurProducts.container img.truck{
+@media screen and (max-width: 500px){
+    .OurProducts.container img.truck,
+    .OurProducts.container .img-OurProducts-big{
         display: none;
     }
     .OurProducts.container .content{

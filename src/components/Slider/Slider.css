@@ -49,9 +49,9 @@
 
 .Slider .swiper-slide h3{
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 12.5%;
-    max-width: 50%;
+    max-width: 40%;
     color: var(--gray-4a);
     font-weight: 400;
 }

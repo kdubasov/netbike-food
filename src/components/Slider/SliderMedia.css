@@ -22,10 +22,14 @@
         left: calc(2.5% - .3em);
     }
     .Slider .swiper-slide h3{
+        top: 35%;
         left: 2.5%;
     }
 }
 @media screen and (max-width: 600px){
+    .Slider .swiper-slide h3{
+        top: 40%;
+    }
     .Slider{
         margin: 1em 0 2em;
     }
