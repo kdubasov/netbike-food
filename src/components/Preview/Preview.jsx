@@ -8,10 +8,16 @@ const Preview = () => {
         <Fade delay={200}>
         <div className={`Preview`}>
             <Fade delay={900}>
+                {/*<div className="container">*/}
+                {/*    <img src="/images/logo.svg" alt="" className="logo"/>*/}
+                {/*    <h1>Решение для доставки продукции</h1>*/}
+                {/*    <h5>Информационная система для управления вашим бизнесом</h5>*/}
+                {/*    <a href="#form">Заказать</a>*/}
+                {/*</div>*/}
                 <div className="container">
                     <img src="/images/logo.svg" alt="" className="logo"/>
-                    <h1>Решение для доставки продукции</h1>
-                    <h5>Информационная система для управления вашим бизнесом</h5>
+                    <h1>Сайт для бизнеса</h1>
+                    <h5>Профессиональная разработка сайта компании</h5>
                     <a href="#form">Заказать</a>
                 </div>
             </Fade>

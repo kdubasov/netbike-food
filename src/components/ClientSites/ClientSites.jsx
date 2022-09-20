@@ -5,6 +5,7 @@ import {Fade} from "react-awesome-reveal";
 
 const ClientSites = () => {
 
+    //для доставки еды
     const data = [
         {
             id:'saitOne',
@@ -13,7 +14,8 @@ const ClientSites = () => {
             podZagolovok:'Доставка еды',
             textTop:'2021 год создания',
             textBot:'3 месяца разработка и внедрение',
-            gradient:'linear-gradient(90deg, #F093FB 0%, #F5576C 100%)'
+            gradient:'linear-gradient(90deg, #F093FB 0%, #F5576C 100%)',
+            link:'https://sakura52.ru/',
         },
         {
             id:'saitTwo',
@@ -22,7 +24,8 @@ const ClientSites = () => {
             podZagolovok:'Доставка еды',
             textTop:'2019 год создания',
             textBot:'1 месяц разработки и внедрение',
-            gradient:'linear-gradient(90deg, #C79081 0%, #DFA579 100%)'
+            gradient:'linear-gradient(90deg, #C79081 0%, #DFA579 100%)',
+            link:'https://dostavka.rancho636.ru/',
         },
         {
             id:'saitThree',
@@ -31,7 +34,42 @@ const ClientSites = () => {
             podZagolovok:'Доставка еды',
             textTop:'2017 год создания',
             textBot:'6 месяцев разработки и внедрение',
-            gradient:'linear-gradient(90deg, #13547A 0%, #80D0C7 100%)'
+            gradient:'linear-gradient(90deg, #13547A 0%, #80D0C7 100%)',
+            link:'https://dzr.sushi-star.ru/',
+        },
+    ]
+
+    //не для доставки еды
+    const data2 = [
+        {
+            id:'saitOne',
+            img:'/images/Sites/dev1.svg',
+            zagolovok:'ЦМК-Аэро',
+            podZagolovok:'Поставка решений для авиационной отрасли',
+            textTop:'2021 год создания',
+            textBot:'3 месяца разработка и внедрение',
+            gradient:'#3B5687',
+            link:'https://cmk-aero.ru/',
+        },
+        {
+            id:'saitTwo',
+            img:'/images/Sites/dev2.svg',
+            zagolovok:'Metrail',
+            podZagolovok:'Профнастил, металлоконструкции',
+            textTop:'2019 год создания',
+            textBot:'1 месяц разработки и внедрение',
+            gradient:'#6175F6',
+            link:'https://metrail.ru/',
+        },
+        {
+            id:'saitThree',
+            img:'/images/Sites/dev3.svg',
+            zagolovok:'ОкаТеплоСервис',
+            podZagolovok:'Осуществление теплоснабжения',
+            textTop:'2017 год создания',
+            textBot:'6 месяцев разработки и внедрение',
+            gradient:'#E28B40',
+            link:'https://oka-ts.ru/o-podklyuchenie-k-setyam',
         },
     ]
 
@@ -41,7 +79,7 @@ const ClientSites = () => {
             <Fade direction={300}>
             <div className="content">
                 {
-                    data.map(elem =>(
+                    data2.map(elem =>(
                         <div
                             key={elem.id}
                             className={`sait-block`}
@@ -57,7 +95,7 @@ const ClientSites = () => {
                                     <p>{elem.textBot}</p>
                                 </span>
                             </div>
-                            <a href="/">Посмотреть</a>
+                            <a target={`_blank`}  href={elem.link}>Посмотреть</a>
                         </div>
                     ))
                 }

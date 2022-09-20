@@ -37,11 +37,34 @@ const Services = () => {
         }
     ];
 
+    const data2 = [
+        {
+            id:0,
+            img:'/images/Services/brand.svg',
+            text:'брендирование страниц;',
+        },
+        {
+            id:1,
+            img:'/images/Services/seo.svg',
+            text:'инструменты для таргетологов и SEO;',
+        },
+        {
+            id:2,
+            img:'/images/Services/uxui.svg',
+            text:'UX/UI дизайн интерфейсов;',
+        },
+        {
+            id:3,
+            img:'/images/Services/func.svg',
+            text:'широкий базовый функционал;',
+        },
+    ];
+
     return (
         <Fade direction={500}>
             <div className={'Services container'}>
                 {
-                    data.map(elem =>(
+                    data2.map(elem =>(
                         <div className={'block'} key={elem.id}>
                             <img src={elem.img} alt=""/>
                             <h6>{elem.text}</h6>

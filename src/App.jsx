@@ -18,7 +18,7 @@ const App = () => {
     return (
         <>
             <Preview />
-            <OurProducts />
+            {/*<OurProducts />*/}
             <Advantages />
             <Stages />
             <ClientSites />

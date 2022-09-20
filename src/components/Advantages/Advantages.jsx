@@ -38,7 +38,7 @@ const Advantages = () => {
     ];
 
     return (
-        <div className={`Advantages container`}>
+        <div className={`Advantages container mt-5`}>
             <h3>Наши преимущества</h3>
             <div className="content">
                 {
@@ -46,7 +46,8 @@ const Advantages = () => {
                         <div className={`advent-block`} key={elem.id}>
                             <Fade>
                             <div
-                                style={{background:elem.gradient}}
+                                // style={{background:elem.gradient}}
+                                style={{background:"#669966"}}
                                 className="line"
                             />
                                 <Slide direction={'up'} delay={300}>

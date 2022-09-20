@@ -1,7 +1,8 @@
 .Preview{
     width: 100%;
     height: 500px;
-    background: url("/public/images/Preview/background.svg");
+    /*background: url("/public/images/Preview/background.svg");*/
+    background: url("/public/images/Preview/background2.svg");
     background-size: cover;
     color: var(--white);
 }
