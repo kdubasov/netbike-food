@@ -32,7 +32,8 @@ const Form = () => {
     const handleSend = e =>{
         e.preventDefault()
         console.log(form.current)
-        emailjs.sendForm('service_an4uzvj', 'template_hn7f37u', form.current, 'VGVHoX_8lEFrXhizs')
+        // emailjs.sendForm('service_an4uzvj', 'template_hn7f37u', form.current, 'VGVHoX_8lEFrXhizs')
+        emailjs.sendForm('service_an4uzvj', 'template_yutmyuj', form.current, 'VGVHoX_8lEFrXhizs')
             .then(() => {
                 setShow(true)
             }, (error) => {

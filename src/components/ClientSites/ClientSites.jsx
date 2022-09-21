@@ -43,7 +43,7 @@ const ClientSites = () => {
     const data2 = [
         {
             id:'saitOne',
-            img:'/images/Sites/dev1.svg',
+            img:'/images/Sites/dev23.svg',
             zagolovok:'ЦМК-Аэро',
             podZagolovok:'Поставка решений для авиационной отрасли',
             textTop:'2021 год создания',
@@ -53,7 +53,7 @@ const ClientSites = () => {
         },
         {
             id:'saitTwo',
-            img:'/images/Sites/dev2.svg',
+            img:'/images/Sites/dev22.svg',
             zagolovok:'Metrail',
             podZagolovok:'Профнастил, металлоконструкции',
             textTop:'2019 год создания',
@@ -63,7 +63,7 @@ const ClientSites = () => {
         },
         {
             id:'saitThree',
-            img:'/images/Sites/dev3.svg',
+            img:'/images/Sites/dev21.svg',
             zagolovok:'ОкаТеплоСервис',
             podZagolovok:'Осуществление теплоснабжения',
             textTop:'2017 год создания',
