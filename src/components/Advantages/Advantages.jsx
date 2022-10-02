@@ -46,8 +46,8 @@ const Advantages = () => {
                         <div className={`advent-block`} key={elem.id}>
                             <Fade>
                             <div
-                                // style={{background:elem.gradient}}
-                                style={{background:"#669966"}}
+                                style={{background:elem.gradient}}
+                                // style={{background:"#669966"}}
                                 className="line"
                             />
                                 <Slide direction={'up'} delay={300}>

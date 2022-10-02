@@ -27,15 +27,25 @@ const Checkboxes = ({dataCheck,setDataCheck}) => {
     return (
         <div className="container-checks">
             <h6 className={'zag-main mt-2 mb-4'}>Выберите опции и функционал для своего интернет-решения</h6>
+            {/*<div className="block-checks">*/}
+            {/*    <h6>Отраслевые опции</h6>*/}
+            {/*    {handleGetBlockCheck('Интернет-эквайринг',0)}*/}
+            {/*    {handleGetBlockCheck('Точки выдачи',1)}*/}
+            {/*    {handleGetBlockCheck('Геолокация',2)}*/}
+            {/*    {handleGetBlockCheck('Фильтр по параметрам',3)}*/}
+            {/*    {handleGetBlockCheck('Промокоды',4)}*/}
+            {/*    {handleGetBlockCheck('Интеграция со сторонней системой',5)}*/}
+            {/*    {handleGetBlockCheck('Мобильное приложение',6)}*/}
+            {/*</div>*/}
             <div className="block-checks">
-                <h6>Отраслевые опции</h6>
-                {handleGetBlockCheck('Интернет-эквайринг',0)}
-                {handleGetBlockCheck('Точки выдачи',1)}
-                {handleGetBlockCheck('Геолокация',2)}
-                {handleGetBlockCheck('Фильтр по параметрам',3)}
-                {handleGetBlockCheck('Промокоды',4)}
-                {handleGetBlockCheck('Интеграция со сторонней системой',5)}
-                {handleGetBlockCheck('Мобильное приложение',6)}
+                <h6>Опции</h6>
+                {handleGetBlockCheck('Мобильное приложение',0)}
+                {handleGetBlockCheck('Интеграция со сторонней системой',1)}
+                {handleGetBlockCheck('Калькулятор',2)}
+                {handleGetBlockCheck('Обратная связь',3)}
+                {handleGetBlockCheck('Геолокация',4)}
+                {handleGetBlockCheck('Email – рассылка',5)}
+                {handleGetBlockCheck('RSS канал',6)}
             </div>
             <div className="block-checks">
                 <h6>Компоненты</h6>
